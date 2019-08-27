@@ -82,10 +82,12 @@
                 android:orientation="horizontal"
                 android:padding="10dp">
 
-                <ImageView
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
-                    android:src="@mipmap/ic_launcher" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="70"
+                    android:layout_height="70"
+                    android:src="@drawable/naufal"
+                    app:civ_border_color="#fff"
+                    app:civ_border_width="2dp"/>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
