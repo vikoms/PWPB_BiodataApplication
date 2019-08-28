@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (view.getId()) {
             case R.id.cardview_naufal:
 
+                startActivity(new Intent(MainActivity.this , NaufalActivity.class));
 
                 break;
             case R.id.cardview_firman:
