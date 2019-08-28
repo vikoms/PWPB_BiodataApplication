@@ -3,6 +3,7 @@ package com.example.biodataapplication;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -40,8 +41,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                 break;
             case R.id.cardview_viko:
-
-
+                Intent viko = new Intent(MainActivity.this, VikoActivity.class);
+                startActivity(viko);
                 break;
         }
     }
