@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Biodata Application</string>
+    <string name="about_me">Hello, I\'am a student at SMKN 4 Bandung,I am  interested in programming, precisely in the PHP and Java programming languages</string>
 </resources>
