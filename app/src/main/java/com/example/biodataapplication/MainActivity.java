@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.cardview_firman:
 
-
+                startActivity(new Intent(MainActivity.this , FirmanActivity.class));
                 break;
             case R.id.cardview_viko:
                 Intent viko = new Intent(MainActivity.this, VikoActivity.class);
