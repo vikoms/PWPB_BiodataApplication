@@ -83,8 +83,8 @@
                 android:padding="10dp">
 
                 <de.hdodenhof.circleimageview.CircleImageView
-                    android:layout_width="70"
-                    android:layout_height="70"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
                     android:src="@drawable/naufal"
                     app:civ_border_color="#fff"
                     app:civ_border_width="2dp"/>
